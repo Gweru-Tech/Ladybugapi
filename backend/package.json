@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Ntando Mods API Server",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
@@ -15,13 +16,14 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "axios": "^1.6.2",
-    "ytdl-core": "^4.11.5",
-    "youtube-search-api": "^1.2.1"
+    "@distube/ytdl-core": "^4.13.3",
+    "ytsr": "^3.8.4"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
